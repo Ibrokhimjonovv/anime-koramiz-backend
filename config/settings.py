@@ -117,17 +117,17 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 CORS_ALLOW_ALL_ORIGINS = False
 
 CORS_ALLOWED_ORIGINS = [
-    "https://afd-platform.uz",
+    "https://tarjima-animelar.uz",
     "http://localhost:3000",
 ]
 
 CORS_ALLOWED_ORIGIN_REGEXES = [
-    r"^https://.*\.afd-platform\.uz$",
+    r"^https://.*\.tarjima-animelar\.uz$",
     "http://localhost:3000",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://afd-platform.uz",
+    "https://tarjima-animelar.uz",
     "http://localhost:3000",
 ]
 CORS_ALLOW_CREDENTIALS = True
