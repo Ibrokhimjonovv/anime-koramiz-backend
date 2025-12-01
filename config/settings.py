@@ -12,13 +12,12 @@ environ.Env.read_env(os.path.join(BASE_DIR, "DJANGO_ENVIRON"))
 SECRET_KEY = env("SECRET_KEY")
 DEBUG = True
 
-# ALLOWED_HOSTS = [
-#     "afd-platform.uz",
-#     "bk.afd-platform.uz",
-#     "proxy.afd-platform.uz",
-#     # "backend",
-# ]
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    "tarjima-animelar.uz",
+    "bk.tarjima-animelar.uz",
+    # "backend",
+]
+# ALLOWED_HOSTS = ['*']
 
 # 🔥 YANGI: Custom headerlarni ruxsat bering
 CORS_ALLOW_HEADERS = [
@@ -118,16 +117,19 @@ CORS_ALLOW_ALL_ORIGINS = False
 
 CORS_ALLOWED_ORIGINS = [
     "https://tarjima-animelar.uz",
+    "https://bk.tarjima-animelar.uz",
     "http://localhost:3000",
 ]
 
 CORS_ALLOWED_ORIGIN_REGEXES = [
     r"^https://.*\.tarjima-animelar\.uz$",
+    "https://bk.tarjima-animelar.uz",
     "http://localhost:3000",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://tarjima-animelar.uz",
+    "https://bk.tarjima-animelar.uz",
     "http://localhost:3000",
 ]
 CORS_ALLOW_CREDENTIALS = True
