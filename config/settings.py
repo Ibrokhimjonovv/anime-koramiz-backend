@@ -128,9 +128,10 @@ CORS_ALLOWED_ORIGIN_REGEXES = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://tarjima-animelar.uz",
     "https://bk.tarjima-animelar.uz",
-    "http://localhost:3000",
+    "https://tarjima-animelar.uz",
+    "https://www.tarjima-animelar.uz",
+    "https://localhost:3000",
 ]
 CORS_ALLOW_CREDENTIALS = True
 
