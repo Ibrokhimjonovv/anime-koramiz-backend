@@ -10,7 +10,7 @@ env = environ.Env(DEBUG=(bool, False))
 environ.Env.read_env(os.path.join(BASE_DIR, "DJANGO_ENVIRON"))
 
 SECRET_KEY = env("SECRET_KEY")
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "tarjima-animelar.uz",
