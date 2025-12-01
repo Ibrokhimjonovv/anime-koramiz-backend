@@ -23,8 +23,8 @@ class AddMoviesAdmin(admin.ModelAdmin):
 
 # --- Boshqa modellarga oddiy ro'yxat ---
 admin.site.register(Add_departments)
-admin.site.register(MovieSeries)  # bu qator optional, chunki endi inlines orqali ko'rinadi
-admin.site.register(SavedFilm)
-admin.site.register(Comment)
-admin.site.register(LikeDislike)
-admin.site.register(Notification)
+# admin.site.register(MovieSeries)  # bu qator optional, chunki endi inlines orqali ko'rinadi
+# admin.site.register(SavedFilm)
+# admin.site.register(Comment)
+# admin.site.register(LikeDislike)
+# admin.site.register(Notification)
