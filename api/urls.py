@@ -16,8 +16,8 @@ urlpatterns = [
     # path("edit_profile/", edit_profile),
     # path("login/", LoginView.as_view()),
     # path("signup/", SignupView.as_view()),
-    # path("token/", TokenObtainPairView.as_view()),
-    # path("token/refresh/", TokenRefreshView.as_view()),
+    path("token/", TokenObtainPairView.as_view()),
+    path("token/refresh/", TokenRefreshView.as_view()),
     
     # Saved films - bitta endpoint bilan
     # path('saved-films/', OptimizedSavedFilmsView.as_view()),
