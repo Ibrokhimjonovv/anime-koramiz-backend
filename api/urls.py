@@ -14,10 +14,10 @@ urlpatterns = [
     path("", include(router.urls)),
     # path("get_profile/", get_profile),
     # path("edit_profile/", edit_profile),
-    path("login/", LoginView.as_view()),
-    path("signup/", SignupView.as_view()),
-    path("token/", TokenObtainPairView.as_view()),
-    path("token/refresh/", TokenRefreshView.as_view()),
+    # path("login/", LoginView.as_view()),
+    # path("signup/", SignupView.as_view()),
+    # path("token/", TokenObtainPairView.as_view()),
+    # path("token/refresh/", TokenRefreshView.as_view()),
     
     # Saved films - bitta endpoint bilan
     # path('saved-films/', OptimizedSavedFilmsView.as_view()),
